@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "stdlib.h"
 #include <tchar.h>
+#include <time.h>
+#include <windows.h>
 
-#include<time.h>   //用到clock()函数
 int NarcissisticNumber() {
     int count=0;
     int ge, shi, bai;
@@ -12,7 +13,7 @@ int NarcissisticNumber() {
         bai = (int)(n / 100);
         if (ge * ge * ge + shi * shi * shi + bai * bai * bai == n) {
             count++;
-            //printf("%d", n);
+            //printf("%d,", n);
         }
     }
 	return count;
@@ -21,18 +22,22 @@ int NarcissisticNumber() {
 
 int main()
 {
-    int begintime, endtime;
+	double begintime, endtime;
     int a[1002];
-    begintime = clock();
+	//DWORD begintime=GetTickCount();
+	begintime = clock();
     int total=0;
     int i = 100;    
     for (i = 1; i <= 10000; i++) {
         total+=NarcissisticNumber();
-    }
-    endtime = clock();    
-    printf("\nRunning Time:%dms", endtime - begintime);
+	}
+	Sleep(1000);
+	//DWORD endtime=GetTickCount();
+	endtime = clock();
+    printf("\nRunning Time:%dms", endtime-begintime );
+	printf("\n%d", begintime );
+  	printf("\n%d", endtime );   
     printf("\ntotal:%d", total);
-
     getchar();
     return 0;
 }

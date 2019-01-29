@@ -21,7 +21,7 @@ namespace Test1W.Net45
             }
             watch.Stop();
             string time = watch.ElapsedMilliseconds.ToString();
-            Console.WriteLine($"C#执行时间：{time}，水仙花数：{total}");
+            Console.WriteLine($"C#执行时间：{time}ms，水仙花数：{total}");
             Console.ReadKey();
         }
 

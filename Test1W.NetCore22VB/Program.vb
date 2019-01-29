@@ -11,7 +11,7 @@ Module Program
         watch.Stop()
         Dim time As String
         time = watch.ElapsedMilliseconds.ToString()
-        Console.WriteLine($"VB执行时间：{time}，水仙花数：{total}")
+        Console.WriteLine($"VB执行时间：{time}ms，水仙花数：{total}")
         Console.ReadKey()
     End Sub
     Function NarcissisticNumber() As Integer

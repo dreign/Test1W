@@ -22,4 +22,4 @@ total = 0
 for each in range(10000):
     total += NarcissisticNumber()
 end = time.time()
-print("Python运行时间:"+str((end-start)*1000)+"，水仙花数："+str(total))
+print("Python运行时间:"+str((end-start)*1000)+"ms，水仙花数："+str(total))
