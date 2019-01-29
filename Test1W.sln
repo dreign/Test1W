@@ -32,6 +32,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C", "C", "{9AB4978D-4963-4B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSharp", "JSharp", "{03638D68-777A-433F-9BC7-CC60DDFF2F84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Go", "Go", "{C3B48250-494F-458E-A3ED-863838C279FB}"
+	ProjectSection(SolutionItems) = preProject
+		Test1W.Go\Test1W.go = Test1W.Go\Test1W.go
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeJs", "NodeJs", "{D051E6BB-7852-49FB-975D-2B121A43C190}"
+	ProjectSection(SolutionItems) = preProject
+		Test1W.NodeJs\Test1W.js = Test1W.NodeJs\Test1W.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
