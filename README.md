@@ -1,54 +1,210 @@
 # Test1W
 
-## 基本硬件展示
-处理器	英特尔 第四代酷睿 i3-4170 @ 3.70GHz 双核
+## 环境
+### Windows 10
+CPU：英特尔 第四代酷睿 i3-4170 @ 3.70GHz 双核
 
-主板	技嘉 H81M-S1
+内存：16 GB ( 金士顿 DDR3 1600MHz )
 
-内存	16 GB ( 金士顿 DDR3 1600MHz )
+### Linux CentOS7.3
+腾讯云标准型S2 1 核 1 GB 1 Mbps 系统盘：高性能云硬盘
 
-主硬盘	 OV-Blitz240GBSSD ( 240 GB / 固态硬盘 )
+VPS：2.4 GHz 基准主频的 Intel Xeon E5-2680 Broadwell（v4）处理器，DDR4 内存
 
-主显卡	AMD Radeon R5 230 ( 1 GB )
+## 各语言性能对比图：
+![各语言性能对比图](http://shoprank.cn/images/3250-20190130142554543-1888774085.png)
 
-显示器	戴尔 DELA104 DELL E2418HN ( 24 英寸  )
+## 各语言性能表格：
+<table border="0" cellspacing="0" cellpadding="0" width="963" style="margin-left:-1.15pt;border-collapse:collapse">
+    <tbody>
+        <tr>
+            <td width="119">
+                <p align="left">语言</span></b></p>
+            </td>
+            <td width="115">
+                <p align="left" style="text-align:left"><b><span>Win10(ms)</span></b></p>
+            </td>
+            <td width="131">
+                <p align="left" style="text-align:left"><b><span>CentOS7.3(ms)</span></b></p>
+            </td>
+            <td width="104">
+                <p align="left">水仙花总数</span></b></p>
+            </td>
+            <td width="495">
+                <p align="left">环境版本</span></b></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>C++</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>0</span></p>
+            </td>
+            <td width="131">
+                <p align="right" style="text-align:right"><span>14</span></p>
+            </td>
+            <td width="104">
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495">
+                <p align="left" style="text-align:left"><span>gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)，Thread model: win32</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>Java</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>4263</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>5617</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>java version "1.8.0_181"</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>C#.Net Core2.2</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>5093</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>6390</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>.Net Core 2.2</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>C#.Net</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>5178</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>-</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>.Net FrameWork 4.5</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>Go</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>5641</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>6748</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>go version go1.10.1 windows/amd64</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>VB.Net Core2.2</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>23848</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>36051</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>Net Core 2.2</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>Node.js</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>26298</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>41757</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>v8.9.3</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>Javascript</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>28219</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>-</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>Google Chrome：版本 71.0.3578.98（64位正式版本）</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>VB.Net</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>34303</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>-</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>.Net FrameWork 4.5</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="119">
+                <p align="left" style="text-align:left"><span>Python</span></p>
+            </td>
+            <td width="115">
+                <p align="right" style="text-align:right"><span>63727</span></p>
+            </td>
+            <td width="131" >
+                <p align="right" style="text-align:right"><span>46253</span></p>
+            </td>
+            <td width="104" >
+                <p align="right" style="text-align:right"><span>60000</span></p>
+            </td>
+            <td width="495" >
+                <p align="left" style="text-align:left"><span>Python 3.7.1</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-网卡	瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 技嘉
 
-声卡	英特尔 英特尔 显示器音频 @ 英特尔 Haswell  高保真音频
-
-## 各语言性能：
-
-C++：	Running Time:0ms，total:60000
-
-	gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)，Thread model: win32
-
-C#.Net：C#执行时间：5178ms，水仙花数：60000
-
-	reg query "HKLM\Software\Microsoft\NET Framework Setup\NDP" /s /v version | findstr /i version | sort /+26 /r 
-
-C#.Net Core2.2：	C#执行时间：5093ms，水仙花数：60000
-
-VB.Net：	VB执行时间：34303ms，水仙花数：60000
-
-VB.Net Core2.2：	VB执行时间：23848ms，水仙花数：60000
-
-Java：	time:4263ms,total:60000
-
-	java version "1.8.0_181"
-
-Go：	time:5641ms,total:60000
-
-	go version go1.10.1 windows/amd64
-
-Node.js：	time:26298ms,total:60000
-
-		v8.9.3
-
-Python：	Python运行时间:63727ms，水仙花数：60000
-
-		Python 3.7.1
-
-Javascript：	time:28219ms,total:60000
-
-		Google Chrome：版本 71.0.3578.98（正式版本） （64 位）
